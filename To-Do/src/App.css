@@ -1,0 +1,53 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.container {
+  background-color: black;
+  border-radius: 20px;
+  width: 60%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+input {
+  width: 50%;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+button {
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: purple;
+}
+p {
+  color: whitesmoke;
+}
+
+/* .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
